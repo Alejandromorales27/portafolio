@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/encriptador.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2><a class="inicio" href="/index.html">Inicio</a></h2>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="formulario">
+            <form onsubmit="evitar(e)" action="">
+                <textarea id="mensaje" rows=“4” cols=“50”>Ingrese el texto a encriptar aqui</textarea>
+                <button type="button" onclick="leermensaje()">encriptar</button>
+                <button type="button" onclick="desencriptar()">desencriptar</button>
+            </form>
+            <div class="mensaje">
+                <p id="mensajeEncriptado"></p>
+            </div>
+        </section>
+        
+        
+
+
+    </main>
+    <script src="/encriptador.js"></script>
+</body>
+</html>

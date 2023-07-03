@@ -1,0 +1,52 @@
+.navbar{
+    background-color: #107acc;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 25px;
+    
+}
+
+.nav-link{
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    scale: 1.2;
+}
+
+.main{
+    margin-top: 45px;
+    text-align: center;
+    
+}
+
+.main ul{
+    display:flex;
+    justify-content: space-around;
+    
+    list-style: none;
+    
+}
+
+.main ul li{
+   transition: 0.8s;
+  
+}
+
+
+.main ul li:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+
+
+@media(max-width: 780px) {
+    .main ul{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        
+    }
+    
+}
