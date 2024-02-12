@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+}
+
+#menu-header{
+    display: flex;
+    background-color:  #4a5b6b;
+    justify-content: end;
+
+
+}
+
+#menu-header ul{
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+    gap: 50px;
+    
+}
+
+#menu-header ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+#banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    width: 100%;
+    height: 350px;
+    gap: 10px;
+
+}
+
+#title{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    justify-items: center;
+}
+
+#title h1{
+
+    
+    width: 100%;
+}
+
+#title-button{
+    display: flex;
+    padding: 8px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    background-color: #2f93f7;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+#title-button:hover{
+background-color: #0B60B0;
+scale: 1.15;
+transition: 0.3s;
+}
+
+#subtitulo{
+
+    color: white;
+
+}
+
+
+
+
+#content-img{
+    width: 50%;
+}
+
+
+
+
+
+#img-banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: #4a5b6b;
+}
+
+#juegos{
+    width: 100%;
+}
+
+#juegos div{
+    width: 100%;
+}
+#gamesVoltear{
+    background-color: #2F3061;
+}
+#game-1{
+    display: flex;
+    
+
+    gap: 20px;
+
+}
+
+#game-1 p{
+    width: 50%;
+    height: 100%;
+    margin: 0;
+
+}
+
+#game-1 textarea{
+    width: 100%;
+    height:200px;
+
+}
+
+#voltearTexto{
+    resize: none;
+    background-color:#2F3061;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+#voltearPalabra{
+    margin: 10px 0 10px 0px;
+}
+
+#laPalabraVoleteada{
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+#laPalabraVoleteada p{
+    width: 100%;
+
+
+}
+
+#voltearPalabra{
+    display: flex;
+    padding: 8px;
+    margin: 10px 0 10px 0px;
+    text-align: center;
+    background-color: #2f93f7;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
