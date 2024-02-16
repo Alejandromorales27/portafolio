@@ -107,6 +107,7 @@ function puntos(puntosJugador,puntosPc){
 function reinicio(){
     tiradaJ.innerHTML=""
     tiradaPc.innerHTML=""
+    batalla.innerHTML=""
     puntosJugador=0;
     puntosPc=0
     puntos(puntosJugador,puntosPc)
